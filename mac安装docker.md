@@ -34,3 +34,5 @@ boot2docker.iso 再执行 ` boot2docker init `
 根据提示执行 ` eval "$(boot2docker shellinit)" `
 
 这样我们就可以通过 `boot2docker ssh ` 访问docker控制台了
+
+docker教程 [http://dockone.io/article/102](http://dockone.io/article/102)
