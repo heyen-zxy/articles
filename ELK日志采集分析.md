@@ -199,7 +199,7 @@ input {
   }
   file {
     type => "iad_event"
-    path => ["/opt/rails-apps/blogblog/shared/log/events.log"]
+    path => ["/opt/rails-apps/blog/shared/log/events.log"]
     add_field => {"server" => "blog98"}
     close_older => 10
     codec => multiline {
